@@ -15,5 +15,5 @@ export const getProducts = async (category = "") => {
 
 // Get product image URL
 export const getProductImageUrl = (imagePath) => {
-  return `https://ec2-54-198-204-9.compute-1.amazonaws.com/:8080/api/products/images/${imagePath}`;
+  return `https://ec2-54-198-204-9.compute-1.amazonaws.com:8081apiproductsimages${imagePath}`;
 };
